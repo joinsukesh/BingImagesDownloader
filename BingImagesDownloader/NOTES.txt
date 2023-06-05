@@ -1,0 +1,16 @@
+﻿The Bing images information is available from Bing using this URL: http://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1&mkt=en-US.
+
+As the format parameter indicates, this will return an XML formatted stream that contains information such as the date the images is for, 
+the relative URL, description, and copyright information.
+
+The idx parameter tells where you want to start from. 
+0 would start at the current day, 1 the previous day, 2 the day after that, etc. 
+For instance, if the date were 1/30/2011, using idx = 0, the file would start with 20110130; using idx = 1, it would start with 20110129; and so forth.
+
+The n parameter tells how many images to return. n = 1 would return only one, n = 2 would return two, and so on.
+
+The mkt parameter tells which of the eight markets Bing is available for you would like images from. 
+The valid values are: en-US, zh-CN, ja-JP, en-AU, en-UK, de-DE, en-NZ, en-CA.
+
+------------------------------------------------------------------------------------------
+
